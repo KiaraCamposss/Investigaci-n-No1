@@ -1,0 +1,38 @@
+header{
+    background-image: url("../img/banner.jpg");
+font-size: 45px;
+text-align: center;
+font-family:'Courier New', Courier, monospace;
+}
+nav{ /*Para especificar la navegación*/
+    background-color: #80b8f8;
+    font-size: 2em;
+    line-height: 2em;
+
+}
+.body-image{
+width: 600px;
+height: auto;
+}
+h2{
+    font-size: 30px;
+}
+.toggle-checkbox {
+    display: none;
+}
+
+.toggle-checkbox:checked ~ .toggle-content {
+    display: block;
+}
+
+.toggle-content {
+    display: none;
+}
+label{
+    color: #0075fc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+p{
+    font-size: 17px;
+}
